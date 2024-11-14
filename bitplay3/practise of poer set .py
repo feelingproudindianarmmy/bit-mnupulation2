@@ -8,6 +8,9 @@ def printpowerset(set,setsize):
 for i in range(0,num):
     num2=int(input("enter element"))
 
+
+
+
 #how to call the funtion
 printpowerset(set,len(set))
 
@@ -54,3 +57,4 @@ def reversedstring(s):
     return reversedstring(s[1:])+firstcharecter
 b="adit jaldi"
 print(reversedstring(b))
+#practising coin exchange
